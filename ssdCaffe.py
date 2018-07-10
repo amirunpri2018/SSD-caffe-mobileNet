@@ -5,6 +5,9 @@ import caffe
 
 caffe.set_mode_cpu()
 
+#caffe.set_device(0)
+#caffe.set_mode_gpu()
+
 
 net_pretrained='./MobileNetSSD_deploy.caffemodel'
 net_model_file='./MobileNetSSD_deploy.prototxt'
